@@ -52,3 +52,6 @@ If you prefer to manage the services individually or encounter issues with the l
     ```
 
 After starting the application, it should be available at **`http://localhost:3000`**.
+
+# Showcase
+https://github.com/user-attachments/assets/0c6f133b-b369-4580-93ab-163bb58532f1
