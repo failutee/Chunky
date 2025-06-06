@@ -3,8 +3,8 @@ import threading
 import sys
 import os
 
-BACKEND_DIR = "../backend"
-FRONTEND_DIR = "../frontend"
+BACKEND_DIR = "backend"
+FRONTEND_DIR = "frontend"
 
 BACKEND_COMMAND = [sys.executable, "server.py"]
 IS_WINDOWS = sys.platform == "win32"
