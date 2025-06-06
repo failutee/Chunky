@@ -1,0 +1,24 @@
+.dropzone-container {
+  position: relative;
+  width: 100%;
+}
+
+.dropzone-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(48, 129, 242, 0.2);
+  border: 2px dashed var(--color-primary-hover);
+  border-radius: 12px;
+  pointer-events: none;
+}
+
+.dropzone-overlay h3 {
+  color: var(--color-primary-hover);
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-shadow: 0 0 10px var(--color-bg);
+}

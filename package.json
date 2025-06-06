@@ -1,0 +1,17 @@
+{
+  "name": "Chunky",
+  "version": "1.0.0",
+  "description": "Combine the contents of multiple text files into one coherent block to help the AI understand your project more effectively.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm start --trace-deprecation --prefix frontend\" \"python backend/server.py\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
